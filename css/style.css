@@ -129,6 +129,7 @@ article h2 {
 
 .password-form fieldset {
     border: none;
+    width: min-content;
 }
 
 .password-form legend {
@@ -144,6 +145,10 @@ article h2 {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
+}
+
+.password-form label span {
+    margin-right: 1rem;
 }
 
 .password-form button {
